@@ -1,41 +1,133 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- meta command puts the characteristics of a website-->
         <meta charset="utf-8">
         <meta name = "description" content = "show random creations that the author has made">
         <meta name = "author" content = "Thais Chloe Campanac-Climent">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
         <title>
-            Thais' Box of Imagination
+            Thais Campanac-Climent Portfolio
         </title>
+        <script src="https://kit.fontawesome.com/4d9da8a22c.js" crossorigin="anonymous"></script>
     </head>
-    <header id = "tabs">
-        <nav>
-            <ul>
-                <li>
-                    <a class = "black-link" href = "/">Home</a>
-                </li>
-                <li>
-                    <a class = "black-link" href = "/">About</a>
-                </li>
-                <li>
-                    <a class = "black-link" href = "/">Current Projects</a>
-                </li>
-                <li>
-                    <a class = "black-link" href = "/">Poems</a>
-                </li>
-                <li>
-                    <a class = "black-link" href = "/">Photos</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class = "welcome">
-        <article>
+
+    <body class="main">
+        <header class="m-header headerDown">
+            <!--we are adding the links and logo in the top part of the website-->
+            <div class="m-logo">
+                <img src="Images/logo.png">
+            </div>
+            <nav class="m-nav">
+                <ul>
+                    <li>
+                        <a ref="home" href = "/index.HTML">Home</a>
+                    </li>
+                    <li>
+                        <a ref="current projects" href = "/current.html">Projects</a>
+                    </li>
+                    <li>
+                        <a ref="cv" href = "/cv.html">CV</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class = "content">
+            <video playsinline autoplay muted loop class="myVideo">
+                <source src="Images/09c4c9cb8277154ec7de52f4118ccd04.mp4" type="video/mp4">
+            </video>
+
+            <div class = "welcome">
+                <article>
+                    Welcome 
+                </article>
+                <h2>
+                    404ERROR;)404ERROR;)404ERROR;)404ERROR;)404ERROR;)
+                </h2>
+            </div>
+        
+            <h6 class="credit" style="margin-top: -30px;">@Illuminati Propaganda</h6>
+        </div>
+
+        <div class = "welcomeAbout">
+            <article>
+                An Introduction
+            </article>
+        </div>
+            <div class = "aboutPage">
+                <div class = "photoofme">
+                    <p>
+                        <img src="Images/photo.jpeg" alt= "me">
+                    </p>
+                </div>
+                <div class="description">
+                    <p> 
+                        Hello! My name is Thais Chloe Campanac-Climent and I am currently studying Software Engineering at The University of Texas
+                        at Dallas. I am both French and American based in Houston, Texas.
+                        I am currently working on my Software and Web Development skills at my keyboard while continuing my other hobbies
+                        like reading, gardening, and playing video games with my friends online (and hopefully one day traveling).
+                    </p>
+                </div>
+            </div>
             
-        </article>
-    </div>
-    <body>
-        Hello World???
+            <div class= "lang">
+                <h3>
+                    Languages
+                </h3>
+
+                <div class="grid">
+                    <div class="card">
+                        <i class="fab fa-java fa-4x"></i>
+                        <h2>Java</h2>
+                    </div>
+                    <div class="card">
+                        <i class="fab fa-html5 fa-4x"></i>
+                        <h2>HTML</h2>
+                    </div>
+                    <div class="card">
+                        <i class="fab fa-css3-alt fa-4x"></i>
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="card">
+                        <i class="fab fa-python fa-4x"></i>
+                        <h2>Python</h2>
+                    </div>
+                    <div class="card">
+                        <img src="/Images/pngfind.com-slash-png-1717872.png" style="width: 120px;">
+                        <h2 style="margin-top: -25px;">C/C++</h2>
+                    </div>
+                </div>
+            </div>
     </body>
+
+    <footer class="footer">
+        <section>
+            <nav>
+                <ul class="contactslinks">
+                    <li>
+                        <a href="/index.HTML">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ThaisCampanac" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a href="mailto:tcc180002@utdallas.edu" target="_blank">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/thaiscampanac/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/thaiscam2/" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="WorkBy">
+                <small>
+                    Website By Thais Chloe Campanac-Climent 2021
+                </small>
+            </p>
+        </section>
+    </footer>
 </html>
