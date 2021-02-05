@@ -7,6 +7,20 @@ article, aside, footer, header, section, nav{
     display: block;
 }
 
+h3{
+    display: block;
+    height: 10px;
+    text-align: left;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 400;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 0px;
+}
+
 ul{
     list-style-type: none;
     display: block;
@@ -236,7 +250,7 @@ body.main .content .credit{
 
 .footer{
     position: absolute;
-    bottom: -10;
+    bottom: -5;
     margin-top: 0%;
     padding: 10px;
     background-color: lightgray;
@@ -260,32 +274,30 @@ body.main .content .credit{
 }
 
 /*problems happen*/
-.projects-list{
-    text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.projects-content{
+    padding: 30px 0;
+    flex: 1;
+    display: block;
+    max-width: calc(900px - (30px*2));
+    margin-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
-    width: 100%;
+    color: darkslategray;
+}
+
+.projects-list{
+    padding:0;
+    margin: 0;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 2rem;
     list-style: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 .projects-list>.projects-item{
-    text-align: -webkit-match-parent;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    border-bottom-width: 1px;
-    margin-bottom: 1em;
-    height: 10rem;
+    height: 15rem;
     display: flex;
     box-sizing: border-box;
 }
@@ -299,8 +311,39 @@ body.main .content .credit{
     display: inline;
     border-radius: 10px;
     padding: .25rem;
-    margin-top: .25rem;
-    margin-left: .25rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
     box-shadow: 0 0 0.25rem 0.25rem;
     box-sizing: border-box;
+}
+
+.projects-list>.projects-item .projects-info{
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+}
+
+.projects-list>.projects-item .projects-info>h3{
+    height: 10px;
+    text-align: left;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.post-meta{
+    display: block;
+    font-size: 17px;
+    color: rgb(72, 110, 110);
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.summary{
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -5px;
 }
