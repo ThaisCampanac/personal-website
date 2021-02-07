@@ -379,7 +379,7 @@ body.main .content-info>.header{
 
 .content-info .header>.tag-grid{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: auto auto auto auto auto;
     justify-self: center;
     text-align: center;
     column-gap: 10px;
