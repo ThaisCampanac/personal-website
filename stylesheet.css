@@ -369,9 +369,12 @@ body.main .content-info>.header{
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
-.content-info .header>.postmeta{
-    margin: 0;
-    padding: 0;
+
+.content-info .header p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: -30px;
+    padding-bottom: 10px;
 }
 
 .content-info .header>.tag-grid{
