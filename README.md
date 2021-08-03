@@ -19,3 +19,9 @@ The goal of this personal project is to understand the website design process an
  
  **Announcement**
  The website is currently under redevelopment.
+
+
+COLORS:
+Blue:    rgb(211,232,232)
+Yellow:  rgb(240, 240, 219)
+Headings:  darkslategray
