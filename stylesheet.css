@@ -1,3 +1,12 @@
+/*
+Fonts
+*/
+
+@font-face{
+    font-family: IndieFlower;
+    src: url("/fonts/IndieFlower-Regular.ttf")
+}
+
 html{
     line-height: 3;
     -ms-text-size-adjust: 100%;
@@ -392,3 +401,7 @@ body.main .content-info>.header{
     background-color: wheat;
     background-size: contain;
 }
+
+/*
+For mobile devices
+*/
