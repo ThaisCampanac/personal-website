@@ -1,6 +1,7 @@
+**Introduction**
 The goal of this personal project is to understand the website design process and implementation of a website while creating a portfolio for future applications.
  
- Languages that need to be learned:
+ ***Languages that need to be learned:***
  HTML
  CSS
 
@@ -8,7 +9,7 @@ The goal of this personal project is to understand the website design process an
  GIT
 
 
- Outline of the Schedule:
+**Outline of the Schedule:**
  Week One: Finish Navigation Bar and Figma Sketches of the Web
  Week Two: Implementation of Figma Sketches
  Week Three: Wrap-up on final design aspects of the website and put it on a hosting platform
@@ -16,12 +17,5 @@ The goal of this personal project is to understand the website design process an
  Current Progress:
  The website is fully functional on GitHub Pages with minor errors. There are many links, videos, and images embedded into the website with also an easy way to contact me through mail in the footer. Across Mac and Windows, the website has minor to little differences.
  
- Next Update to Fix Bugs and Add More Features: March
-
- Current Problems:
- Screen must be full/half screen on a desktop
- If on a laptop, footer cuts off the project explanations
- 
- Future Developments:
- Dark Mode
- Personal Tab
+ **Announcement**
+ The website is currently under redevelopment.
