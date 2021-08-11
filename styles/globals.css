@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'IndieFlower';
+  src: url('/fonts/IndieFlower-Regular.ttf');
+}
+@font-face {
+  font-family: 'Code';
+  src: url(/thaispersonalwebsite/fonts/PressStart2P-Regular.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.body{
+  display: flex;
+  flex-direction: column;
+}
+
+div.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  font-family: 'IndieFlower';
+  font-size: 50px;
+}
+
+a.Link{
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
