@@ -20,6 +20,7 @@ export default function Home() {
             </ul>
           </nav>
       </div>
+      <div classname="intro"></div>
     </div>
   )
 }
