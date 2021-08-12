@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import {GiAbstract097} from 'react-icons/gi'
 
 export default function Home() {
   return (
@@ -6,13 +7,14 @@ export default function Home() {
       <div className='navigation'>
           <nav>
             <ul>
+
+              <Link href='/cv'>
+                <a className='Link'>Resume</a>
+              </Link>
               <Link href='/'>
                 <a className='Link'>
-                  <img src="/assets/logo.png"></img>
+                  <GiAbstract097></GiAbstract097>
                 </a>
-              </Link>
-              <Link href='/cv'>
-                <a className='Link'>CV</a>
               </Link>
               <Link href='/projects'>
                 <a className='Link'>Projects</a>
@@ -20,7 +22,6 @@ export default function Home() {
             </ul>
           </nav>
       </div>
-      <div classname="intro"></div>
     </div>
   )
 }

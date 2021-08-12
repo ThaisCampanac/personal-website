@@ -1,11 +1,5 @@
-@font-face {
-  font-family: 'IndieFlower';
-  src: url('/fonts/IndieFlower-Regular.ttf');
-}
-@font-face {
-  font-family: 'Code';
-  src: url(/thaispersonalwebsite/fonts/PressStart2P-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Press+Start+2P&display=swap');
 
 html,
 body {
@@ -34,7 +28,7 @@ div.navigation{
   flex-direction: row;
   justify-content: center;
   margin: auto;
-  font-family: 'IndieFlower';
+  font-family: 'Indie Flower', cursive;
   font-size: 50px;
 }
 
