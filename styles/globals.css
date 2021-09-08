@@ -52,22 +52,22 @@ a.Link:hover{
 div.content{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  
 }
-/*
-div.welcome{
+
+div.new-website{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  width: 700px;
   justify-content: center;
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
-  background: url('/assets/09c4c9cb8277154ec7de52f4118ccd04.mp4');
-  text-transform: uppercase;
-
-  text-shadow: ;
+  margin-top: 10px;
+  background-color: white;
+  border:rgb(255, 255, 143);
+  border-width: 10px;
 }
-*/
 
 div.welcome{
   display: flex;
