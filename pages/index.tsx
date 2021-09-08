@@ -22,6 +22,24 @@ export default function Home() {
             </ul>
           </nav>
       </div>
+      <div className="content">
+        <div className="welcome">
+          <h1>Hi There!</h1>
+          <h2>A Little About Me</h2>
+          <div className="about-me">
+            <p>Blah blah blah</p>
+          </div>
+        </div>
+        <div className="technologies">
+          <h2>Here is some languages and tech I know</h2>
+        </div>
+        <div className="projects">
+          <h2>Some Personal Projects to peek at</h2>
+        </div>
+        <div className="contactMe">
+          <h2>Contact Me!</h2>
+        </div>
+      </div>
     </div>
   )
 }
