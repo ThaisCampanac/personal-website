@@ -7,13 +7,17 @@ export default function Home() {
     <div className='body'>
       <Navigation></Navigation>
       <div className="content">
-        <div className="new-website">
-          <h1>Welcome</h1>
-          <h2>New website, new feelings</h2>
-          <p>The last website that I made was hard-coded with HTML and CSS.</p>
-          <p>I know now that I need a refresh and a better way to present myself and my projects.</p>
-          <p>So goodbye with the old and hello to Website Upgrade.</p>
-          <h2>Future Updates to Come!</h2>
+        <div className="welcome">
+          <h1>A Little About Me</h1>
+          <div className="about-me">
+            <p>Blah blah blah</p>
+          </div>
+        </div>
+        <div className="technologies">
+          <h2>Here is some languages and tech I know</h2>
+        </div>
+        <div className="contactMe">
+          <h2>Contact Me!</h2>
         </div>
       </div>
     </div>

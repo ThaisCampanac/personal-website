@@ -1,6 +1,9 @@
 import Link from 'next/link'
-import {GiAbstract097} from 'react-icons/gi'
 import React from 'react';
+import Image from 'next/image'
+import resumePic from '../assets/resume.png'
+import homePic from '../assets/home.png'
+import projectsPic from '../assets/projects.png'
 
 export default function Navigation() {
   return (
@@ -10,15 +13,19 @@ export default function Navigation() {
             <ul>
 
               <Link href='/cv'>
-                <a className='Link'>Resume</a>
+                <a className='Link'>
+                  <Image src={resumePic} width={60} height={50}></Image>
+                </a>
               </Link>
               <Link href='/'>
                 <a className='Link'>
-                  <GiAbstract097></GiAbstract097>
+                <Image src={homePic} width={60} height={70}></Image>
                 </a>
               </Link>
               <Link href='/projects'>
-                <a className='Link'>Projects</a>
+                <a className='Link'>
+                  <Image src={projectsPic} width={60} height={50}></Image>
+                </a>
               </Link>
             </ul>
           </nav>
