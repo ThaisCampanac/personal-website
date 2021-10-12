@@ -14,7 +14,7 @@ export default function Navigation() {
 
               <Link href='/cv'>
                 <a className='Link'>
-                  <Image src={resumePic} width={60} height={50}></Image>
+                  <Image src={resumePic} width={50} height={50}></Image>
                 </a>
               </Link>
               <Link href='/'>
@@ -24,7 +24,7 @@ export default function Navigation() {
               </Link>
               <Link href='/projects'>
                 <a className='Link'>
-                  <Image src={projectsPic} width={60} height={50}></Image>
+                  <Image src={projectsPic} width={60} height={70}></Image>
                 </a>
               </Link>
             </ul>

@@ -48,3 +48,37 @@ a.Link:hover{
   background-color: bisque;
 }
 
+div.content{
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+div.about-me{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+img.my-photo{
+  padding: 20px;
+  margin-right: 10px;
+  border: 5px solid antiquewhite !important;
+  border-radius: 5%;
+}
+
+p.about-me-paragraph{
+  background-color: antiquewhite;
+  display: inline-flex;
+  justify-content: center;
+  width: 350px;
+  height: 100%;
+  font-family: "Indie Flower";
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
