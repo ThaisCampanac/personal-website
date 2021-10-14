@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Press+Start+2P&display=swap');
-
+@font-face {
+  font-family: 'RPG Font';
+  src: url('../fonts/TheWildBreathOfZelda-15Lv.ttf');
+}
 html,
 body,
 ul {
@@ -49,11 +52,34 @@ a.Link:hover{
 }
 
 div.content{
-  padding: 10px;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
+}
+
+div.intro-screen{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  min-height: 500px;
+  background: url("../assets/intro-screen.png") top center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: blur(2px);
+  font-family: 'RPG Font';
+}
+
+h1.name{
+  font-size: 80px;
+}
+
+h2.major{
+  font-size: 40px;
+  margin-top: -10px;
 }
 
 div.about-me{
@@ -73,12 +99,19 @@ img.my-photo{
 
 p.about-me-paragraph{
   background-color: antiquewhite;
+  border-radius: 5%;
   display: inline-flex;
   justify-content: center;
   width: 350px;
   height: 100%;
   font-family: "Indie Flower";
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-left: 10px;
+}
+
+div.technologies{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
 }
