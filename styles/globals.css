@@ -3,6 +3,27 @@
   font-family: 'RPG Font';
   src: url('../fonts/TheWildBreathOfZelda-15Lv.ttf');
 }
+
+@media all and (max-width: 600px) {
+  p.about-me-paragraph{
+    margin-top: 10px !important;
+  }
+  div.technologies{
+    margin-top: -35px;
+  }
+  h2.tech-title{
+    font-size: 35px !important;
+  }
+  h3.tech-subtitle{
+    display: flex;
+    width: auto;
+    font-size: 20px !important;
+  }
+
+  div.grid-languages{
+    flex-wrap: wrap;
+  }
+}
 html,
 body,
 ul {
@@ -114,4 +135,36 @@ div.technologies{
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
+  align-self: center;
+}
+
+h2.tech-title{
+  font-family: 'RPG Font';
+  font-size: 50px;
+  align-self: center;
+}
+
+h3.tech-subtitle{
+  font-family: 'RPG Font';
+  font-size: 40px;
+  margin-top: -10px;
+  align-self: center;
+}
+
+div.grid-languages{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.c-card{
+  margin-top: 15px !important;
+}
+
+h2.language{
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Indie Flower';
 }
