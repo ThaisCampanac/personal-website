@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Press+Start+2P&display=swap');
+@font-face {
+  font-family: 'RPG Font';
+  src: url('../fonts/TheWildBreathOfZelda-15Lv.ttf');
+}
+
+@media all and (max-width: 600px) {
+  p.about-me-paragraph{
+    margin-top: 10px !important;
+  }
+  div.technologies{
+    margin-top: -35px;
+  }
+  h2.tech-title{
+    font-size: 35px !important;
+  }
+  h3.tech-subtitle{
+    display: flex;
+    width: auto;
+    font-size: 20px !important;
+  }
+
+  div.grid-languages{
+    flex-wrap: wrap;
+  }
+}
+html,
+body,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(211,232,232);
+}
+
+div.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 50px;
+  background-color: white;
+  width: 100%;
+}
+
+a.Link{
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  transition: .25s;
+  border-radius: 50%;
+}
+
+a.Link:hover{
+  background-color: bisque;
+}
+
+div.content{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+div.intro-screen{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  min-height: 500px;
+  background: url("../assets/intro-screen.png") top center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: blur(2px);
+  font-family: 'RPG Font';
+}
+
+h1.name{
+  font-size: 80px;
+}
+
+h2.major{
+  font-size: 40px;
+  margin-top: -10px;
+}
+
+div.about-me{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+img.my-photo{
+  padding: 20px;
+  margin-right: 10px;
+  border: 5px solid antiquewhite !important;
+  border-radius: 5%;
+}
+
+p.about-me-paragraph{
+  background-color: antiquewhite;
+  border-radius: 5%;
+  display: inline-flex;
+  justify-content: center;
+  width: 350px;
+  height: 100%;
+  font-family: "Indie Flower";
+  padding: 20px;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+div.technologies{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+h2.tech-title{
+  font-family: 'RPG Font';
+  font-size: 50px;
+  align-self: center;
+}
+
+h3.tech-subtitle{
+  font-family: 'RPG Font';
+  font-size: 40px;
+  margin-top: -10px;
+  align-self: center;
+}
+
+div.grid-languages{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.c-card{
+  margin-top: 15px !important;
+}
+
+h2.language{
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Indie Flower';
+}
