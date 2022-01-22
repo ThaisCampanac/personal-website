@@ -14,14 +14,10 @@
   h2.tech-title{
     font-size: 35px !important;
   }
-  h3.tech-subtitle{
-    display: flex;
-    width: auto;
-    font-size: 20px !important;
-  }
 
   div.grid-languages{
     flex-wrap: wrap;
+
   }
 }
 html,
@@ -144,17 +140,13 @@ h2.tech-title{
   align-self: center;
 }
 
-h3.tech-subtitle{
-  font-family: 'RPG Font';
-  font-size: 40px;
-  margin-top: -10px;
-  align-self: center;
-}
-
 div.grid-languages{
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
+  width: auto;
+  margin-bottom: 15px;
+  margin-top: -5px;
 }
 
 div.c-card{
