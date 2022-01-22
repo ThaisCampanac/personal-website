@@ -12,7 +12,7 @@ export default function Home() {
       <Navigation></Navigation>
       <div className="content">
         <div className="intro-screen">
-          <h1 className="name">Thais Chloe Campanac-Climent</h1>
+          <h1 className="name">Thais Campanac-Climent</h1>
           <h2 className="major">Computer Science and Software Engineer</h2>
           <SocialMedia></SocialMedia>
         </div>
