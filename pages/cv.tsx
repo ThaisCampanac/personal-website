@@ -1,7 +1,7 @@
 import Navigation from '../components/Navigation'
 import React, { useState } from 'react'
-import pdf2021 from '../assets/ResumeSept2021.png'
-import Image from 'next/image'
+import {Chrono} from "react-chrono";
+import data from '../components/data';
 
 export default function cv() {
 
@@ -9,7 +9,7 @@ export default function cv() {
     
     <div className='body'>
       <Navigation></Navigation>
-      <Image src={pdf2021}></Image>
+      <Chrono items={data} mode="VERTICAL_ALTERNATING"></Chrono>
     </div>
   )
 }
