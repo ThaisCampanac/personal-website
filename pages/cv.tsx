@@ -1,7 +1,7 @@
-import Navigation from '../components/Navigation'
-import React, { useState } from 'react'
+import Navigation from '../components/Navigation';
+import React, { useState } from 'react';
 import {Chrono} from "react-chrono";
-import data from '../components/data';
+import data from "../pages/data";
 
 export default function cv() {
 
@@ -9,7 +9,7 @@ export default function cv() {
     
     <div className='body'>
       <Navigation></Navigation>
-      <Chrono items={data} mode="VERTICAL_ALTERNATING"></Chrono>
+      <Chrono items={data} mode="VERTICAL"></Chrono>
     </div>
   )
 }
