@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Press+Start+2P&display=swap');
-@font-face {
-  font-family: 'RPG Font';
-  src: url('../fonts/TheWildBreathOfZelda-15Lv.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 @media all and (max-width: 600px) {
   p.about-me-paragraph{
@@ -87,7 +84,7 @@ div.intro-screen{
   background-repeat: no-repeat;
   background-size: cover !important;
   background: blur(2px);
-  font-family: 'RPG Font';
+  font-family: 'Macondo';
 }
 
 h1.name{
@@ -135,7 +132,7 @@ div.technologies{
 }
 
 h2.tech-title{
-  font-family: 'RPG Font';
+  font-family: 'Macondo';
   font-size: 50px;
   align-self: center;
 }
@@ -159,4 +156,14 @@ h2.language{
   justify-content: center;
   align-self: center;
   font-family: 'Indie Flower';
+}
+
+h1.timeline-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Macondo';
+    font-size: 60px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 0;
 }

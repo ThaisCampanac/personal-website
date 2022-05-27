@@ -9,6 +9,7 @@ export default function cv() {
     
     <div className='body'>
       <Navigation></Navigation>
+      <h1 className='timeline-title'>CV Timeline</h1>
       <Chrono items={data} mode="VERTICAL"></Chrono>
     </div>
   )
