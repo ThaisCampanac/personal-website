@@ -12,7 +12,7 @@ export default function Home() {
       <Navigation></Navigation>
       <div className="content">
         <div className="intro-screen">
-          <h1 className="name">Thais Chloe Campanac-Climent</h1>
+          <h1 className="name">Thais Campanac-Climent</h1>
           <h2 className="major">Computer Science and Software Engineer</h2>
           <SocialMedia></SocialMedia>
         </div>
@@ -23,8 +23,7 @@ export default function Home() {
           </p>
         </div>
         <div className="technologies">
-          <h2 className = "tech-title">Skills</h2>
-          <h3 className = "tech-subtitle">This is the highlights of my technical skills</h3>
+          <h2 className = "tech-title"> Technical Skills</h2>
           <Languages></Languages>
         </div>
       </div>
