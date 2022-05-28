@@ -4,6 +4,7 @@ import Languages from '../components/Languages'
 import React from 'react'
 import Image from 'next/dist/client/image'
 import myPhoto from '../assets/myPhoto.jpeg'
+import backgroundPhoto from '../assets/intro-screen.png'
 
 
 export default function Home() {
