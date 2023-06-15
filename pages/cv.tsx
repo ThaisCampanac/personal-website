@@ -9,7 +9,10 @@ export default function cv() {
     
     <div className='body'>
       <Navigation></Navigation>
-      <Chrono items={data} mode="VERTICAL"></Chrono>
+      <Chrono items={data} mode="VERTICAL" cardWidth={450} theme={
+        {primary: 'pink',
+      secondary: 'white'}
+      }></Chrono>
     </div>
   )
 }

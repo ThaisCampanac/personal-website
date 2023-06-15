@@ -9,7 +9,6 @@ const items = [
         title: "August 2019",
         cardTitle: "University of Texas at Dallas",
         cardSubtitle: "Software Engineer Major",
-        cardDetailedText:"I began my first semester at UTD."
     },
     {
         title: "Fall 2020",
@@ -21,7 +20,6 @@ const items = [
         title: "Spring 2021",
         cardTitle: "University of Texas at Dallas",
         cardSubtitle: "Computer Science Major",
-        cardDetailedText:"I decided to do another major."
     },
     {
         title: "May - November 2021",
@@ -44,8 +42,18 @@ const items = [
     {
         title:"June - July 2022",
         cardTitle:"PriceWaterHouse and Copper",
-        cardSubtitle:"Security Developer Intern",
-        cardDetailedText:"TBD"
+        cardSubtitle:"Security Consultant Intern",
+        cardDetailedText:"Worked on documenting the integration between Prisma and ServiceNow. Made a conceptual deployment of GitHub Workflows with S.A.L.S.A"
+    },
+    {
+        title:"Spring 2023",
+        cardTitle:"Carnegie Mellon University INI",
+        cardSubtitle:"Masters of Science in Information Security",
+    },
+    {
+        title:"June - August 2023",
+        cardTitle:"NASA",
+        cardSubtitle:"Space Communications and Networks Intern",
     }
 ];
 

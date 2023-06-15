@@ -4,7 +4,6 @@ import Languages from '../components/Languages'
 import React from 'react'
 import Image from 'next/dist/client/image'
 import myPhoto from '../assets/myPhoto.jpeg'
-import backgroundPhoto from '../assets/intro-screen.png'
 
 
 export default function Home() {
@@ -19,8 +18,9 @@ export default function Home() {
         </div>
         <div className="about-me">
           <Image src={myPhoto} width={350} height={350} className = "my-photo"></Image>
-          <p className="about-me-paragraph">Hello, my name is Thais Campanac-Climent and I am currently a Computer Science and Software Engineering major at the University of Texas at Dallas.
-              At the moment my projects include the HackUTD front-end website, my website, and some free-lancing programming. 
+          <p className="about-me-paragraph">Hello, my name is Thais Campanac-Climent and I am currently a gradute student at Carnegie Mellon University, M.S. Information Security. 
+          I graduated from the University of Texas at Dallas with a B.S. in Computer Science and Software Engineering. I am currently a Space Communications and Networks 
+          within the High-Rate Delay Torent Network division at NASA. My internship comprises of testing the security capabilities of HDTN.
           </p>
         </div>
         <div className="technologies">
