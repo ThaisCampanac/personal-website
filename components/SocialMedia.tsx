@@ -4,7 +4,7 @@ import {MdEmail} from 'react-icons/md'
 export default function SocialMedia() {
     let iconStyles = {width: "50px", height: "auto", margin: "10px"}
     return (
-        <div className="contact-me-icons">
+        <div className="contact-me-icons" id='contact'>
             <a href = "https://github.com/ThaisCampanac" target = "_blank">
               <FaGithubSquare style = {iconStyles}></FaGithubSquare>
             </a>
