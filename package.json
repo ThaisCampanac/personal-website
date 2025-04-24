@@ -1,6 +1,6 @@
 {
   "name": "thaispersonalwebsite",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "eslint-config-next": "*",
-    "next": "*",
+    "next": "^15.3.1",
     "node": "^20.9.0",
     "npm": "^11.3.0",
     "nprogress": "*",
