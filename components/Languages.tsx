@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react';
 import {DiJava, DiHtml5, DiCss3, DiPython} from 'react-icons/di'
-import Image from 'next/dist/client/image';
 import CLanguage from '../assets/c++language.png'
 
 export default function Languages(){
@@ -25,7 +24,6 @@ export default function Languages(){
                 <h2 className= "language">Python</h2>
             </div>
             <div className="c-card">
-                <Image src = {CLanguage} width = {65} height = {70} className="c-card"></Image>
                 <h2 className= "language">C/C++</h2>
             </div>
           </div>
