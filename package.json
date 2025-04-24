@@ -10,6 +10,8 @@
   "dependencies": {
     "eslint-config-next": "*",
     "next": "*",
+    "node": "^22.15.0",
+    "npm": "^11.3.0",
     "nprogress": "*",
     "react": "^19.1.0",
     "react-chrono": "*",
@@ -17,10 +19,10 @@
     "react-icons": "*"
   },
   "devDependencies": {
-    "@types/node": "*",
+    "@types/node": "^22.15.0",
     "@types/nprogress": "*",
-    "@types/react": "*",
-    "react-router-dom": "*",
+    "@types/react": "^19.1.0",
+    "react-router-dom": "^19.1.0",
     "typescript": "*"
   }
 }
