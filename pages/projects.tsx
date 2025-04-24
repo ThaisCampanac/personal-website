@@ -1,5 +1,6 @@
 import Navigation from '../components/Navigation'
 import React, { useState } from 'react'
+import Project from '../components/project'
 
 export default function projects() {
 
@@ -7,7 +8,7 @@ export default function projects() {
     
     <div className='body'>
       <Navigation></Navigation>
-      <h1>Future Development in Progress</h1>
+      <Project></Project>
     </div>
   )
 }
